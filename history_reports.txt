@@ -1,0 +1,581 @@
+ 
+Fecha y hora del evento: jue 18 jun 2020 04:32:01 UTC
+ 
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI CPU#######################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+##########Estado de mi Servidor MYSQL############
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-06-18 04:08:49 UTC; 23min ago
+    Process: 659 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 769 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 1075)
+     Memory: 384.8M
+     CGroup: /system.slice/mysql.service
+             └─769 /usr/sbin/mysqld
+
+jun 18 04:08:30 marco systemd[1]: Starting MySQL Community Server...
+jun 18 04:08:49 marco systemd[1]: Started MySQL Community Server.
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1040     99448   2% /run
+/dev/sda2       10252564 5002444   4709604  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+###############MIS SERVICIOS#####################
+/home/marco/consulta.sh: 31: service: not found
+##################ESTADO DE MI RED22###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.101/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 5784sec preferred_lft 5784sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztc25pr3ja: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 66:2f:a0:6d:0d:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.147.18.44/24 brd 10.147.18.255 scope global ztc25pr3ja
+       valid_lft forever preferred_lft forever
+    inet6 fe80::642f:a0ff:fe6d:d50/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       454Mi       179Mi       1,0Mi       347Mi       378Mi
+Swap:         1,9Gi          0B       1,9Gi
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000
+ 
+Fecha y hora del evento: jue 18 jun 2020 04:33:01 UTC
+ 
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI CPU#######################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+##########Estado de mi Servidor MYSQL############
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-06-18 04:08:49 UTC; 24min ago
+    Process: 659 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 769 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 1075)
+     Memory: 384.8M
+     CGroup: /system.slice/mysql.service
+             └─769 /usr/sbin/mysqld
+
+jun 18 04:08:30 marco systemd[1]: Starting MySQL Community Server...
+jun 18 04:08:49 marco systemd[1]: Started MySQL Community Server.
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1040     99448   2% /run
+/dev/sda2       10252564 5002448   4709600  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+###############MIS SERVICIOS#####################
+/home/marco/consulta.sh: 31: service: not found
+##################ESTADO DE MI RED22###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.101/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 5724sec preferred_lft 5724sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztc25pr3ja: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 66:2f:a0:6d:0d:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.147.18.44/24 brd 10.147.18.255 scope global ztc25pr3ja
+       valid_lft forever preferred_lft forever
+    inet6 fe80::642f:a0ff:fe6d:d50/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       454Mi       179Mi       1,0Mi       347Mi       378Mi
+Swap:         1,9Gi          0B       1,9Gi
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000
+ 
+Fecha y hora del evento: jue 18 jun 2020 04:34:02 UTC
+ 
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI CPU#######################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+##########Estado de mi Servidor MYSQL############
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-06-18 04:08:49 UTC; 25min ago
+    Process: 659 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 769 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 1075)
+     Memory: 384.8M
+     CGroup: /system.slice/mysql.service
+             └─769 /usr/sbin/mysqld
+
+jun 18 04:08:30 marco systemd[1]: Starting MySQL Community Server...
+jun 18 04:08:49 marco systemd[1]: Started MySQL Community Server.
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1040     99448   2% /run
+/dev/sda2       10252564 5002448   4709600  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+###############MIS SERVICIOS#####################
+/home/marco/consulta.sh: 31: service: not found
+##################ESTADO DE MI RED22###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.101/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 5664sec preferred_lft 5664sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztc25pr3ja: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 66:2f:a0:6d:0d:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.147.18.44/24 brd 10.147.18.255 scope global ztc25pr3ja
+       valid_lft forever preferred_lft forever
+    inet6 fe80::642f:a0ff:fe6d:d50/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       454Mi       179Mi       1,0Mi       347Mi       378Mi
+Swap:         1,9Gi          0B       1,9Gi
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000
+ 
+Fecha y hora del evento: jue 18 jun 2020 04:35:01 UTC
+ 
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI CPU#######################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+##########Estado de mi Servidor MYSQL############
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-06-18 04:08:49 UTC; 26min ago
+    Process: 659 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 769 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 1075)
+     Memory: 384.8M
+     CGroup: /system.slice/mysql.service
+             └─769 /usr/sbin/mysqld
+
+jun 18 04:08:30 marco systemd[1]: Starting MySQL Community Server...
+jun 18 04:08:49 marco systemd[1]: Started MySQL Community Server.
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1040     99448   2% /run
+/dev/sda2       10252564 5002448   4709600  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+###############MIS SERVICIOS#####################
+/home/marco/consulta.sh: 31: service: not found
+##################ESTADO DE MI RED22###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.101/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 5605sec preferred_lft 5605sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztc25pr3ja: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 66:2f:a0:6d:0d:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.147.18.44/24 brd 10.147.18.255 scope global ztc25pr3ja
+       valid_lft forever preferred_lft forever
+    inet6 fe80::642f:a0ff:fe6d:d50/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       454Mi       179Mi       1,0Mi       347Mi       379Mi
+Swap:         1,9Gi          0B       1,9Gi
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000
+ 
+Fecha y hora del evento: jue 18 jun 2020 04:36:01 UTC
+ 
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI CPU#######################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+##########Estado de mi Servidor MYSQL############
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-06-18 04:08:49 UTC; 27min ago
+    Process: 659 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 769 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 1075)
+     Memory: 384.8M
+     CGroup: /system.slice/mysql.service
+             └─769 /usr/sbin/mysqld
+
+jun 18 04:08:30 marco systemd[1]: Starting MySQL Community Server...
+jun 18 04:08:49 marco systemd[1]: Started MySQL Community Server.
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1040     99448   2% /run
+/dev/sda2       10252564 5002448   4709600  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+###############MIS SERVICIOS#####################
+/home/marco/consulta.sh: 31: service: not found
+##################ESTADO DE MI RED22###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.101/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 5545sec preferred_lft 5545sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztc25pr3ja: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 66:2f:a0:6d:0d:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.147.18.44/24 brd 10.147.18.255 scope global ztc25pr3ja
+       valid_lft forever preferred_lft forever
+    inet6 fe80::642f:a0ff:fe6d:d50/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       454Mi       179Mi       1,0Mi       347Mi       379Mi
+Swap:         1,9Gi          0B       1,9Gi
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000
+ 
+Fecha y hora del evento: jue 18 jun 2020 04:37:01 UTC
+ 
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI CPU#######################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+##########Estado de mi Servidor MYSQL############
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-06-18 04:08:49 UTC; 28min ago
+    Process: 659 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 769 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 1075)
+     Memory: 384.8M
+     CGroup: /system.slice/mysql.service
+             └─769 /usr/sbin/mysqld
+
+jun 18 04:08:30 marco systemd[1]: Starting MySQL Community Server...
+jun 18 04:08:49 marco systemd[1]: Started MySQL Community Server.
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1040     99448   2% /run
+/dev/sda2       10252564 5002448   4709600  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+###############MIS SERVICIOS#####################
+/home/marco/consulta.sh: 31: service: not found
+##################ESTADO DE MI RED22###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.101/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 5484sec preferred_lft 5484sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztc25pr3ja: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 66:2f:a0:6d:0d:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.147.18.44/24 brd 10.147.18.255 scope global ztc25pr3ja
+       valid_lft forever preferred_lft forever
+    inet6 fe80::642f:a0ff:fe6d:d50/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       454Mi       179Mi       1,0Mi       347Mi       379Mi
+Swap:         1,9Gi          0B       1,9Gi
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000
+ 
+Fecha y hora del evento: jue 18 jun 2020 04:38:01 UTC
+ 
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI CPU#######################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+##########Estado de mi Servidor MYSQL############
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-06-18 04:08:49 UTC; 29min ago
+    Process: 659 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 769 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 1075)
+     Memory: 384.8M
+     CGroup: /system.slice/mysql.service
+             └─769 /usr/sbin/mysqld
+
+jun 18 04:08:30 marco systemd[1]: Starting MySQL Community Server...
+jun 18 04:08:49 marco systemd[1]: Started MySQL Community Server.
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1040     99448   2% /run
+/dev/sda2       10252564 5002452   4709596  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+###############MIS SERVICIOS#####################
+/home/marco/consulta.sh: 31: service: not found
+##################ESTADO DE MI RED22###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.101/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 5425sec preferred_lft 5425sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztc25pr3ja: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 66:2f:a0:6d:0d:50 brd ff:ff:ff:ff:ff:ff
+    inet 10.147.18.44/24 brd 10.147.18.255 scope global ztc25pr3ja
+       valid_lft forever preferred_lft forever
+    inet6 fe80::642f:a0ff:fe6d:d50/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       454Mi       179Mi       1,0Mi       347Mi       379Mi
+Swap:         1,9Gi          0B       1,9Gi
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000
