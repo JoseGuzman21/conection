@@ -1,0 +1,3 @@
+la ram es: 2.1ram
+la ram es: 3.1ram
+la ram es: 4.1ram

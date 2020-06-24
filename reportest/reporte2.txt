@@ -1,0 +1,57 @@
+Fecha y hora del evento: dom 21 jun 2020 04:12:01 UTC
+##########Reportes de mi Servidor################
+marco
+GNU/Linux
+##########ESTADO DE MI DISCO DURO################
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              458768       0    458768   0% /dev
+tmpfs             100488    1064     99424   2% /run
+/dev/sda2       10252564 5028940   4683108  52% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1754
+/dev/loop1         56320   56320         0 100% /snap/core18/1705
+/dev/loop2         70656   70656         0 100% /snap/lxd/14804
+/dev/loop3         72960   72960         0 100% /snap/lxd/15564
+/dev/loop4         27776   27776         0 100% /snap/snapd/7264
+/dev/loop5         30592   30592         0 100% /snap/snapd/8140
+tmpfs             100484       0    100484   0% /run/user/1000
+##################ESTADO DE MI RED###############
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:fc:d4:8d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.105/24 brd 192.168.0.255 scope global dynamic enp0s3
+       valid_lft 4348sec preferred_lft 4348sec
+    inet6 fe80::a00:27ff:fefc:d48d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ztyxaw3lar: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 2800 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether d6:a0:9b:ec:c3:fe brd ff:ff:ff:ff:ff:ff
+    inet 10.147.19.44/24 brd 10.147.19.255 scope global ztyxaw3lar
+       valid_lft forever preferred_lft forever
+    inet6 fe80::d4a0:9bff:feec:c3fe/64 scope link 
+       valid_lft forever preferred_lft forever
+################MI TEMPERATURA###################
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+###############CAPACIDAD DE DISCOS###############
+Filesystem      Size  Used Avail Use% Mounted on
+udev            449M     0  449M   0% /dev
+tmpfs            99M  1,1M   98M   2% /run
+/dev/sda2       9,8G  4,8G  4,5G  52% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5,0M     0  5,0M   0% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1754
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop2       69M   69M     0 100% /snap/lxd/14804
+/dev/loop3       72M   72M     0 100% /snap/lxd/15564
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/loop5       30M   30M     0 100% /snap/snapd/8140
+tmpfs            99M     0   99M   0% /run/user/1000

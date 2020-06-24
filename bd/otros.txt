@@ -1,0 +1,4 @@
+la temperatura es: 20grados
+la capacidad de discos es: 4gb utilizados
+la temperatura es: 32grados
+la capacidad de discos es: 3.8fb utilizados

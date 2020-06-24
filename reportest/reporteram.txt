@@ -1,0 +1,5 @@
+Fecha y hora del evento: dom 21 jun 2020 04:12:01 UTC
+###############USO DE MEMORIA RAM################
+              total        used        free      shared  buff/cache   available
+Mem:          981Mi       488Mi        73Mi       0,0Ki       419Mi       341Mi
+Swap:         1,9Gi       2,0Mi       1,9Gi
